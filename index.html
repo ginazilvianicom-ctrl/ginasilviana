@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- SEO & META WAJIB -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portofolio pribadi [Nama Anda], berisi informasi diri, pengalaman, karya, dan kontak.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portofolio: [Nama Anda]">
+    <meta property="og:image" content="lokasi-foto.jpg">
+
+    <title>Portofolio Pink Lucu</title>
+
+    <!-- LINK KE CSS TERPISAH -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <!-- Komentar Laporan -->
+    <h1>Portofolio Saya - [Nama Anda]</h1>
+    <p>Selamat datang di halaman portofolio pribadi saya!</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav aria-label="Navigasi utama">
+    <a href="#tentang">Tentang</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#karya">Karya</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <!-- SECTION TENTANG DIRI -->
+    <section id="tentang" class="pink-card">
+        <h2>Tentang Saya</h2>
+        <img src="foto-saya.jpg" alt="Foto [Nama Anda] tersenyum" tabindex="0">
+        <p>
+            Halo! Nama saya <strong>[Nama Anda]</strong>. Saya seorang 
+            <abbr title="Web Developer">WebDev</abbr>
+            yang suka membuat desain lucu dan berwarna pink. Saya mulai belajar sejak 
+            <time datetime="2020-01-01">2020</time>.
+        </p>
+    </section>
+
+    <!-- SECTION PENDIDIKAN / PENGALAMAN -->
+    <section id="pendidikan" class="pink-card">
+        <h2>Riwayat Pendidikan & Pengalaman</h2>
+        <table>
+            <caption>Riwayat Pendidikan dan Pengalaman Kerja</caption>
+            <thead>
+                <tr>
+                    <th>Tahun</th>
+                    <th colspan="2">Keterangan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2018</td>
+                    <td>SMA/SMK</td>
+                    <td>Lulus dengan nilai baik</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Kuliah</td>
+                    <td>Semester akhir</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Magang</td>
+                    <td>Front-End Developer</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Riwayat diperbarui terakhir pada <time datetime="2025-01-01">2025</time></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- SECTION KEAHLIAN -->
+    <section id="keahlian" class="pink-card">
+        <h2>Keahlian</h2>
+
+        <ul>
+            <li>HTML (Advanced)</li>
+            <li>CSS (Intermediate)</li>
+            <li>JavaScript (Beginner)</li>
+        </ul>
+
+        <dl>
+            <dt>Soft Skill</dt>
+            <dd>Komunikatif, Disiplin, Kreatif</dd>
+            <dt>Bahasa</dt>
+            <dd>Indonesia, English Basic</dd>
+        </dl>
+    </section>
+
+    <!-- SECTION KARYA / PROJEK -->
+    <section id="karya" class="pink-card">
+        <h2>Karya / Projek</h2>
+
+        <iframe width="300" height="200"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Video Project" aria-describedby="desk-video"></iframe>
+        <p id="desk-video">Video salah satu project yang pernah saya buat.</p>
+
+        <p>
+            Lihat project saya di sini:
+            <a href="https://contohproject.com" target="_blank">Kunjungi Project</a>
+        </p>
+
+        <article>
+            <h3>Projek Poster</h3>
+            <img src="poster-karya.jpg" alt="Poster karya desain pink buatan saya">
+        </article>
+
+        <aside>
+            <p>Fun fact: Saya suka bekerja sambil mendengarkan musik pink vibes ♡</p>
+        </aside>
+    </section>
+
+    <!-- SECTION FORM KONTAK -->
+    <section id="kontak" class="pink-card">
+        <h2>Kontak Saya</h2>
+
+        <form>
+            <fieldset>
+                <legend>Formulir Kontak</legend>
+
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required minlength="3" maxlength="30"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="nomor">Nomor HP:</label><br>
+                <input type="tel" id="nomor" name="nomor" required minlength="10" maxlength="15"><br><br>
+
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" required minlength="5"></textarea><br><br>
+
+                <p>Jenis Kontak:</p>
+                <input type="radio" id="saran" name="jenis" value="saran">
+                <label for="saran">Saran</label>
+
+                <input type="radio" id="pertanyaan" name="jenis" value="pertanyaan">
+                <label for="pertanyaan">Pertanyaan</label><br><br>
+
+                <input type="checkbox" id="setuju" required>
+                <label for="setuju">Saya setuju dengan ketentuan</label><br><br>
+
+                <button type="submit">Kirim</button>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <p>© <time datetime="2025">2025</time> [Nama Anda]. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>

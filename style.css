@@ -1,0 +1,67 @@
+/* ====== STYLE UMUM ====== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #b30059;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, section, article, aside, footer {
+    padding: 20px;
+}
+
+/* ====== HEADER ====== */
+header {
+    background-color: #ffb3d9;
+    text-align: center;
+}
+
+/* ====== NAVBAR ====== */
+nav {
+    background-color: #ff99cc;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ====== GAMBAR ====== */
+img {
+    max-width: 200px;
+    border-radius: 10px;
+    border: 3px solid #ff66b3;
+}
+
+/* ====== TABEL ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+th, td {
+    border: 1px solid #ff66b3;
+    padding: 10px;
+}
+th {
+    background-color: #ffb3d9;
+}
+
+/* ====== KARTU PINK ====== */
+.pink-card {
+    background: white;
+    border: 2px solid #ff66b3;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background-color: #ff99cc;
+    text-align: center;
+}
+
